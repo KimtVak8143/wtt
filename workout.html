@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekly workout</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f4f6f8;--card:#fff;--ink:#16212b;--mute:#5f6d7a;--line:#d8dee4;--heavy:#e3eafe;--run:#fdebd3;--walk:#d8f1ec;--light:#ece6f9;--rest:#e9ecef}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10171e;--card:#192330;--ink:#e8edf2;--mute:#92a1b0;--line:#2a3846;--heavy:#24325f;--run:#4a3517;--walk:#17423b;--light:#35294f;--rest:#252f39}}
+:root[data-theme="dark"]{--bg:#10171e;--card:#192330;--ink:#e8edf2;--mute:#92a1b0;--line:#2a3846;--heavy:#24325f;--run:#4a3517;--walk:#17423b;--light:#35294f;--rest:#252f39}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1000px;margin:0 auto;padding:18px 14px 40px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:18px;margin:26px 0 8px}
+p{margin:0;color:var(--mute)}
+.key{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.key span{padding:2px 10px;border-radius:99px;font-size:13px;color:var(--ink);border:1px solid var(--line)}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font-size:13px;color:var(--mute);font-weight:600;background:var(--card);position:sticky;top:0}
+td.d{font-weight:700;white-space:nowrap;width:1%}
+td.d small{display:block;font-weight:400;color:var(--mute);font-size:12px}
+td b{display:block;margin-bottom:3px}
+td ul{margin:0;padding-left:16px}
+.heavy{background:var(--heavy)}.run{background:var(--run)}.walk{background:var(--walk)}.light{background:var(--light)}.rest{background:var(--rest)}
+.rt td{padding:7px 12px}
+.list{margin:0;padding-left:18px;color:var(--mute)}.list li{margin:2px 0}
+</style></head>
+<body><main>
+<h1>Weekly workout</h1>
+<p>Monday off. Heavy strength on walk-home evenings, light work on run days.</p>
+<div class="key"><span class="heavy">Heavy strength</span><span class="walk">Walk-day circuit</span><span class="run">Run</span><span class="light">Light / recovery</span><span class="rest">Rest</span></div>
+
+<div class="wrap"><table>
+<tr><th>Day</th><th>Morning</th><th>Evening</th></tr>
+<tr><td class="d">Mon<small>Rest</small></td><td class="rest" colspan="2">Full rest</td></tr>
+
+<tr><td class="d">Tue<small>Walk day</small></td>
+<td class="walk"><b>KB circuit, 30 min</b><ul><li>5 rounds, 40 s on / 20 s off</li><li>KB swings</li><li>Goblet squats</li><li>KB halos</li><li>Reverse lunges</li><li>Mountain climbers</li></ul></td>
+<td class="heavy"><b>Upper heavy, 40 min</b><ul><li>Push-ups 4 x max</li><li>Pike push-ups 3 x 8-10</li><li>Chair dips 3 x 10-12</li><li>Dead hangs 4 x 20-30 s</li><li>Negative pull-ups 4 x 3-5</li><li>Inverted rows 3 x 8-10</li><li>One-arm KB rows 3 x 10 each</li></ul></td></tr>
+
+<tr><td class="d">Wed<small>Run day</small></td>
+<td class="run"><b>Run A: intervals, 30-35 min</b><ul><li>5 min easy warm-up</li><li>Intervals (see below)</li><li>5 min walk</li></ul></td>
+<td class="light"><b>Mobility + core, 30 min</b><ul><li>Hip and calf stretches 8 min</li><li>Glute bridges 3 x 15</li><li>Dead bugs 3 x 10 each</li><li>Side planks 3 x 25 s each</li><li>Dead hangs 3 x 20 s</li></ul></td></tr>
+
+<tr><td class="d">Thu<small>Walk day</small></td>
+<td class="walk"><b>Core + KB circuit, 30 min</b><ul><li>4 rounds, 40 s on / 20 s off</li><li>KB swings</li><li>Plank shoulder taps</li><li>Goblet squat holds</li><li>Russian twists with KB</li><li>Bicycle crunches</li></ul></td>
+<td class="heavy"><b>Legs heavy, 45 min</b><ul><li>Goblet squat 4 x 12 (3 s down)</li><li>Bulgarian split squat 3 x 10 each</li><li>Single-leg RDL 3 x 10 each</li><li>Glute bridge to single-leg 3 x 12</li><li>Calf raises 3 x 20</li><li>Wall sit 2 x 45 s</li></ul></td></tr>
+
+<tr><td class="d">Fri<small>Run day</small></td>
+<td class="run"><b>Run B: steady, 25-30 min</b><ul><li>Easy pace, short sentences possible</li><li>5 min walk</li></ul></td>
+<td class="light"><b>Light upper + hangs, 30 min</b><ul><li>Push-ups 3 x 8-10 (stop 2 short)</li><li>Scapular pulls 3 x 8</li><li>Negative pull-ups 3 x 3</li><li>Lateral raises 3 x 15</li><li>Plank 3 x 40 s</li><li>Stretch 8 min</li></ul></td></tr>
+
+<tr><td class="d">Sat<small>Walk day</small></td>
+<td class="walk"><b>KB HIIT, 25-30 min</b><ul><li>8 rounds, 30 s on / 30 s off</li><li>KB swings</li><li>Burpees</li><li>High knees</li><li>Jump squats</li></ul></td>
+<td class="heavy"><b>Full body heavy, 45 min</b><ul><li>KB swings 5 x 15</li><li>Goblet squats 4 x 12</li><li>Push-ups 4 x max</li><li>One-arm KB rows 3 x 10 each</li><li>Reverse lunges 3 x 10 each</li><li>Inverted rows 3 x 8-10</li><li>Plank 3 x 45 s</li></ul></td></tr>
+
+<tr><td class="d">Sun<small>Run day</small></td>
+<td class="run"><b>Run C: long easy, 35-45 min</b><ul><li>Easy pace</li><li>5 min walk</li></ul></td>
+<td class="light"><b>Recovery, 20-30 min (optional)</b><ul><li>Full-body stretch 10 min</li><li>Hip and hamstring mobility</li><li>Easy walk 15 min</li></ul></td></tr>
+</table></div>
+
+<h2>Run progression</h2>
+<div class="wrap"><table class="rt">
+<tr><th>Weeks</th><th>Run A (Wed)</th><th>Run B (Fri)</th><th>Run C (Sun)</th></tr>
+<tr><td>1-2</td><td>8 x (1 min run / 1 min walk)</td><td>6 x (2 / 1)</td><td>25 min run-walk</td></tr>
+<tr><td>3-4</td><td>6 x (2 / 1)</td><td>5 x (4 / 1)</td><td>30 min, run 5 / walk 1</td></tr>
+<tr><td>5-6</td><td>6 x (1 fast / 2 easy)</td><td>25 min jog</td><td>35 min jog</td></tr>
+<tr><td>7+</td><td>8 x (1 fast / 1.5 easy)</td><td>30 min jog</td><td>40-45 min jog</td></tr>
+</table></div>
+
+<h2>Rules</h2>
+<ul class="list">
+<li>Make exercises harder each week: more reps, slower lowering, shorter rest, harder variation.</li>
+<li>Runs B and C stay easy. Light evenings stay light.</li>
+<li>Fat loss is mostly food: 300-500 kcal deficit, about 110 g protein. Track your waist weekly.</li>
+</ul>
+</main></body></html>
